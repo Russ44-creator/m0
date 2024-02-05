@@ -9,9 +9,9 @@ DIFF=${DIFF:-diff}
 
 term="stuff"
 
-cat "$T_FOLDER"/d/d7.txt > d/global-index.txt
+cat "$T_FOLDER"/d/s_query-input.txt > d/global-index.txt
 
-if $DIFF <(./query.sh "$term") <(cat "$T_FOLDER"/d/d8.txt) > /dev/null;
+if $DIFF <(./query.sh "$term") <(cat "$T_FOLDER"/d/s_query-output.txt) > /dev/null;
 then
     echo "$0 success: search results are identical"
 else
