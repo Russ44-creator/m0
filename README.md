@@ -1,12 +1,12 @@
 # M0: Setup & Centralized Computing
-> Full name: `<first last>`
-> Email:  `<email@brown.edu>`
-> Username:  `cslogin`
+> Full name: `<Lingfeng Deng>`
+> Email:  `<lingfeng_deng@brown.edu>`
+> Username:  `dlingfen`
 
 ## Summary
 > Summarize your implementation, including key challenges you encountered
 
-My implementation comprises `<number>` software components, totaling `<number>` lines of code in the following languages: `<number>` lines of shell scripts and `<number>` of JavaScript code. Key challenges included `<3 challenges and how you managed to overcome them>`.
+My implementation comprises `<9>` software components, totaling `<340>` lines of code in the following languages: `<140>` lines of shell scripts and `<200>` of JavaScript code. Key challenges included `<3 challenges and how you managed to overcome them>`.
 
 ## Correctness & Performance Characterization
 > Describe how you characterized the correctness and performance of your implementation
