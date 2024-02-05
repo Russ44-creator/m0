@@ -1,9 +1,12 @@
-simple
-links
+simpl
+link
 check
 stuff
 level
 check
 stuff
 level
-rights
+right
+right
+right
+level

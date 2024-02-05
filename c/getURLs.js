@@ -42,8 +42,9 @@ rl.on('close', () => {
   const htmlContent = htmlStream.join('\n');
   const htmlDom = new JSDOM(htmlContent);
   const lastElementLists = htmlDom.window.document.querySelectorAll('a');
-  lastElementLists.forEach((lastElementList) => {
+  for (i = 0; i < lastElementLists.length; i++) {
+    lastElementList = lastElementLists[i];
     const url = new URL(lastElementList.getAttribute('href'), baseURL).href;
     console.log(url);
-  });
+  }
 });

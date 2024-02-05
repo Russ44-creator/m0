@@ -1,0 +1,2 @@
+check | https://google.com 1
+check find | https://google.com 2
